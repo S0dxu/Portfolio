@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <div id="background"></div>
+    <div class="switch" onclick="toggleSwitch()">
+        <div class="ball">
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+            <div class="raggio"></div>
+        </div>
+        <div class="moon"></div>
+    </div>
+    <div class="cursor-small"></div>
+    <div class="cursor-large"></div>
+    <div class="cursor-pointer"><i class='bx bx-show'></i></div>
+    <div id="welcome" class="welcome">
+        <div class="top">
+            <h3>Crafting Your Website Around Your Vision.</h3>
+            <a>Begin the Journey <i class='bx bx-chevron-right'></i></a>
+        </div>
+        <div class="social">
+            <li class="git">
+                <i class='bx bxl-github'></i>
+                <a href="#">SxdDoo</a>
+            </li>
+            <li class="ds">
+                <i class='bx bxl-discord-alt'></i>
+                <a href="#">saddoo.exe</a>
+            </li>
+            <li class="tg">
+                <i class='bx bxl-telegram'></i>
+                <a href="#">TristeFare_</a>
+            </li>
+        </div>
+        <h1>Welcome</h1>
+        <img src="img/welcome.png" alt="">
+        <i class='bx bx-right-arrow-alt' id="go"></i>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#home">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="center">
+        <section id="home">
+            <p>HEY THERE !</p>
+            <h2>I am <strong>SadDoo</strong></h2>
+            <h5>
+                <span>W E B</span>
+                <span id="space"> ⁣</span>
+                <span>D E V E L O P E R</span>
+                <span id="space1"> ⁣</span>
+                <span>& &</span>
+                <span id="space1"> ⁣</span>
+                <span>D E S I G N E R</span>
+            </h5>
+            <div class="list-icons">
+                <i class='bx bx-code-alt' ></i>
+                <i class='bx bx-palette'></i>
+                <i class='bx bx-book' ></i>
+                <i class='bx bx-message-square-dots'></i>
+            </div>
+            <a class="project" id="project" href="#projects">PROJECTS</a>
+            <div class="bar">
+                <li class="nine">
+                    <h2>9+</h2>
+                    <h4>Projects</h4>
+                </li>
+                <li>
+                    <h2>1+</h2>
+                    <h4>Year Experience</h4>
+                </li>
+                <li class="lg">
+                    <h2>ITA</h2>
+                    <h4>Main Language</h4>
+                </li>
+                <li class="lg">
+                    <h2>EN</h2>
+                    <h4>Second Language</h4>
+                </li>
+            </div>
+            <img src="img/provo.png" id="profile">
+        </section>
+
+        <section id="skills">
+            <h2>My <strong>Skills</strong></h2>
+            <div class="wrapper">
+                <div class="itemLeft item1"><i class='bx bxl-html5'></i><p>HTML</p></div>
+                <div class="itemLeft item2"><i class='bx bxl-css3'></i><p>CSS</p></div>
+                <div class="itemLeft item3"><i class='bx bxl-javascript'></i><p>JS</p></div>
+                <div class="itemLeft item4"><img src="img/python.png" alt=""><p>PYTHON</p></div>
+                <div class="itemLeft item5"><i class='bx bxl-git'></i><p>GIT</p></div>
+                <div class="itemLeft item6"><img src="img/figma.png" alt=""><p>FIGMA</p></div>
+              </div>
+              <div class="wrapper">
+                <div class="itemRight item1"><i class='bx bxl-html5'></i><p>HTML</p></div>
+                <div class="itemRight item2"><i class='bx bxl-css3'></i><p>CSS</p></div>
+                <div class="itemRight item3"><i class='bx bxl-javascript'></i><p>JS</p></div>
+                <div class="itemRight item4"><img src="img/python.png" alt=""><p>PYTHON</p></div>
+                <div class="itemRight item5"><i class='bx bxl-git'></i><p>GIT</p></div>
+                <div class="itemRight item6"><img src="img/figma.png" alt=""><p>FIGMA</p></div>
+              </div>
+        </section>
+        
+        <section id="projects">
+            <h2>My <strong>Projects</strong></h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <h3>JuicePvP</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus dolore itaque obcaecati ipsam ullam neque nesciunt expedita, officia soluta corrupti vitae sint assumenda quidem mollitia molestiae nobis praesentium. Dolore, iusto.</p>
+                        <a href="#">Visit Site<i class='bx bx-search'></i></a>
+                        <img src="img/succopvp.png" alt="Project Image">
+                    </div>
+                    <div class="item">
+                        <h3>JuicePvP1</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus dolore itaque obcaecati ipsam ullam neque nesciunt expedita, officia soluta corrupti vitae sint assumenda quidem mollitia molestiae nobis praesentium. Dolore, iusto.</p>
+                        <a href="#">Visit Site<i class='bx bx-search'></i></a>
+                        <img src="img/succopvp.png" alt="Project Image">
+                    </div>
+                    <div class="item">
+                        <h3>JuicePvP2</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus dolore itaque obcaecati ipsam ullam neque nesciunt expedita, officia soluta corrupti vitae sint assumenda quidem mollitia molestiae nobis praesentium. Dolore, iusto.</p>
+                        <a href="#">Visit Site<i class='bx bx-search'></i></a>
+                        <img src="img/succopvp.png" alt="Project Image">
+                    </div>
+                    <div class="item">
+                        <h3>JuicePvP3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus dolore itaque obcaecati ipsam ullam neque nesciunt expedita, officia soluta corrupti vitae sint assumenda quidem mollitia molestiae nobis praesentium. Dolore, iusto.</p>
+                        <a href="#">Visit Site<i class='bx bx-search'></i></a>
+                        <img src="img/succopvp.png" alt="Project Image">
+                    </div>
+                </div>
+                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+        </section>
+            
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
